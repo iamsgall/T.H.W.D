@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="../main.css" />
+  <!-- BOOTSTRAP CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- GOOGLE FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@400;500&family=Roboto&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <style>
+    img:hover {
+      cursor: pointer;
+    }
+  </style>
+
+  <!-- NAVBAR (READY) -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand mr-auto" href="../index.html"><i class="fas fa-arrow-left ml-3"
+          style="font-size: 22px;"></i></a>
+    </div>
+  </nav>
+
+  <div class="section3 py-5" id="gallery">
+    <div class="container">
+      <h2 class="d-flex justify-content-center align-items-center text-center section3-title pb-4">
+        INSTALLATION GALLERY
+      </h2>
+      <div class="row d-flex justify-content-center align-items-center text-center">
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.29_PM_2_azyw96.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.30_PM_2_qtezah.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.29_PM_3_rhelbo.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center text-center">
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.30_PM_1_vvu9th.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.31_PM_o2qbvt.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.30_PM_4_fydhc8.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center text-center">
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.31_PM_1_zknxxo.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.30_PM_3_ferjkh.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+        <div class="col-md-3 pb-3">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/dckqoipjl/image/upload/v1595793720/ernesto-app/packing/WhatsApp_Image_2020-07-26_at_12.16.31_PM_4_gm8wxr.jpg"
+            class="rounded mx-auto d-block img-fluid img-thumbnail img-gallery intense" alt="..." />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FONTAWESOME CDN  -->
+  <script src="../js/all.min.js"></script>
+  <!-- INTENSE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intense-images/1.0.7/intense.min.js"></script>
+
+  <script>
+    window.onload = function () {
+      // Intensify all images on the page.
+      var elements = document.querySelectorAll(".intense");
+      Intense(elements);
+    };
+  </script>
+</body>
+
+</html>
